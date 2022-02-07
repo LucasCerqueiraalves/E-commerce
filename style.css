@@ -483,9 +483,7 @@ html {
       height: 100%;
     }
   
-    .sliderTitle{
-      display: none;
-    }
+    
   
     .sliderPrice{
       top: unset;
@@ -549,7 +547,7 @@ html {
   
     .footerLeft{
       padding: 20px;
-      width: 90%;
+      width: 91%;
     }
   
     .footerRight{
@@ -578,3 +576,71 @@ html {
       border-radius: 30px;
       height: 5px;
   }
+
+
+  @media (min-width: 319px) and (max-width:424px) {
+    .sliderTitle {
+      font-size: 18px;
+      top: 31%;
+      right: 6%;
+    }
+    .buyButton {
+      height: 39px;
+      width: 100px;
+      font-size: 13px;
+      right: 10px;
+      top: 19px;
+    }
+    .sliderPrice {
+      top: -16px;
+      bottom: 322px;
+      font-size: 16px;
+    }
+    .menuItem{
+      font-size: 13px;
+    }
+    .navItem{
+      width: 60px;
+      height: 60px;
+    }
+    .sliderBg {
+    width: 83%;
+    }
+
+    .limitedOffer{
+      font-size: 16px;
+    }
+    .featureIcon{
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+    .productDetails{
+      width: 90%;
+    }
+   
+    .newSeason{
+      margin-top: 130px;
+    }
+    .productButton{
+      margin-bottom: 20px;
+    }
+    .payment{
+      width: 71%;
+    }
+  }
+
+  @media (min-width:425px) and (max-width: 767px){
+    .buyButton{
+     right: 38px;
+     top: 24px;
+      font-size: 13px;
+    }
+    .sliderPrice {
+      bottom: 344px;
+      font-size: 15px;
+
+    }
+    .newSeason {
+      margin-top: 204px;
+    }
+  } 
